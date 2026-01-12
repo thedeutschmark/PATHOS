@@ -1,16 +1,39 @@
-# React + Vite
+# P.A.T.H.O.S. Job Center
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Personal Automated Tracking & Hiring Optimization System
 
-Currently, two official plugins are available:
+React-based dashboard for job search optimization featuring an ATS simulator, pipeline visualization, and resume optimizer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+* **Application Dashboard:** Visualizes application data via Sankey diagrams and activity metrics.
+* **Pipeline:** Kanban-style tracking with stage management and visual timelines.
+* **ATS Optimizer:** Client-side resume tailoring and cover letter generation using keyword analysis.
+* **Master Profile:** Centralized editor for core professional data.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the ESLint configuration
+**Clone repository**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone [https://github.com/thedeutschmark/pathos.git](https://github.com/yourusername/pathos.git)
+cd pathos
+```
+
+**Install Dependencies**
+```bash
+npm install
+```
+**Run Locally**
+```bash
+npm run dev
+```
+## Tech Stack
+
+* React
+* Vite
+* Lucide-React
+
+## System Logic
+The optimizer utilizes regex patterns and keyword density analysis to simulate ATS scoring. All data processing occurs client-side.
+
