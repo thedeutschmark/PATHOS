@@ -16,7 +16,7 @@ React-based dashboard for job search optimization featuring an ATS simulator, pi
 **Clone repository**
 
 ```bash
-git clone [https://github.com/thedeutschmark/pathos.git](https://github.com/yourusername/pathos.git)
+git clone https://github.com/thedeutschmark/pathos.git
 cd pathos
 ```
 
